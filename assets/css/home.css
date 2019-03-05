@@ -22,6 +22,7 @@ body{
 }
 
 nav{
+  z-index: 1;
   position: fixed;
   top: 0;
   width: 100%;
@@ -117,4 +118,9 @@ header aside{
   background-color: rgb(255,126,21);
   color: white;
   border-radius: 0.3vw;
+}
+/* just to show of scroll */
+.empty{
+  background: Black;
+  height: 20vh;
 }
