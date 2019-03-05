@@ -46,7 +46,7 @@ header{
 header video{
   position: relative;
   object-fit: fill;
-  width: 71vw;
+  width: 71%;
   height: 100%;
 }
 
@@ -55,7 +55,7 @@ header aside{
   position: absolute;
   top: 0;
   right: 0;
-  width: 29vw;
+  width: 29%;
   height: 100%;
   background-color: rgba(127,127,127,0.61);
 }
