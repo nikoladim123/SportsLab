@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Lato-Light';
+  font-display: auto;
+  src: url('../fonts/Lato-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  font-display: auto;
+  src: url('../fonts/Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato-Black';
+  font-display: auto;
+  src: url('../fonts/Lato-Black.ttf') format('truetype');
+}
 body{
   margin: 0;
 }
@@ -62,4 +77,33 @@ header aside{
   width: 18vw;
   height: 12.62vh;
   margin-left: 3.9vw;
+}
+.asideContent h2 span{
+  font-family: 'Lato-Light',serif;
+}
+.asideContent h2{
+  font-family: 'Lato-Black',serif;
+}
+.asideContent p{
+  font-family: 'Lato-Black',serif;
+}
+.asideContent p span{
+  font-family: 'Lato-Light',serif;
+}
+
+.asideContent h3{
+  font-family: 'Lato-Black',serif;
+}
+
+.asideContent h3 span{
+  font-family: 'Lato-Light',serif;
+}
+.signUp{
+  font-family: 'Lato-Bold',serif;
+  width: 23.85vw;
+  height: 8.2vh;
+  border: none;
+  background-color: rgb(255,126,21);
+  color: white;
+  border-radius: 0.3vw;
 }
