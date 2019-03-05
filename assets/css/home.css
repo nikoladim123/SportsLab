@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+}
+
+.navSpacer{
+  height: 9vh;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8.847vh;
+  background-color: rgba(0,0,0,.5);
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 9.843vw;
+  margin-left: 5.729vw;
+  max-height: 8.5vh;
+}
+
+header{
+  position: relative;
+  overflow: hidden;
+  height: 91vh;
+}
+
+header video{
+  position: relative;
+  object-fit: fill;
+  width: 73vw;
+  height: 100%;
+}
+
+header aside{
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 29vw;
+  height: 100%;
+  background-color: rgba(127,127,127,0.61);
+}
+.asideContent{
+  position: absolute;
+  height: 100%;
+  width: 27.91vw;
+  top: 0;
+  right: 0;
+  background: white
+}
+.asideLogoDiv{
+  width: 100%;
+  height: 19.5vh;
+  background-color: rgb(56,56,56);
+  display: flex;
+  align-items: center;
+}
+.asideLogoImg{
+  width: 18vw;
+  height: 12.62vh;
+  margin-left: 3.9vw;
+}
