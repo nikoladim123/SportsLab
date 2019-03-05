@@ -18,7 +18,8 @@ body{
 }
 
 .navSpacer{
-  height: 90px;
+  height: 88px;
+  border-bottom: 2px solid white;
 }
 
 nav{
@@ -53,8 +54,8 @@ header video{
 
 header aside{
   text-align: center;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 90px;
   right: 0;
   width: 29%;
   height: 100%;
