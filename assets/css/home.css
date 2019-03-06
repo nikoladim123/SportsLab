@@ -4,6 +4,11 @@
   src: url('../fonts/Lato-Light.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'Lato-Regular';
+  font-display: auto;
+  src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Lato-Bold';
   font-display: auto;
   src: url('../fonts/Lato-Bold.ttf') format('truetype');
@@ -37,6 +42,21 @@ nav{
   width: 188px;
   margin-left: 5.729vw;
   max-height: 9.5vh;
+}
+.links{
+  margin-left: 20vw;
+}
+.links a{
+  text-decoration: none;
+  font-family: 'Lato-Regular';
+  color: white;
+  font-size: 1.25vw;
+  margin-right: 1vw;
+
+}
+.links a:nth-child(2){
+  text-decoration: underline;
+  text-decoration-color: rgb(255,126,21);
 }
 
 header{
