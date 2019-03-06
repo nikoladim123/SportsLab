@@ -1,89 +1,315 @@
-
+.links a:nth-child(1){
+  text-decoration: underline;
+  text-decoration-color: rgb(255,126,21);
+}
 
 header{
+  height: 31.134vw;
+  width: 100%;
   position: relative;
   overflow: hidden;
-  height: calc(100vh - 88px);
+  background-color: rgb(20,20,20);
 }
-
-header video{
-  position: relative;
-  object-fit: fill;
-  width: 71.9%;
-  height: 100%;
-}
-
-header aside{
-  text-align: center;
+.fixedBgImage{
   position: fixed;
-  top: 90px;
-  right: 0;
-  width: 29%;
-  height: 100%;
-  background-color: rgba(127,127,127,0.61);
-}
-.asideContent{
-  position: absolute;
-  height: 100%;
-  width: 97%;
-  top: 0;
-  right: 0;
-  background: white
-}
-.asideLogoDiv{
   width: 100%;
-  height: 19.5vh;
-  background-color: rgb(56,56,56);
-  display: flex;
-  align-items: center;
-}
-.asideLogoImg{
-  width: 18vw;
-  height: 12.62vh;
-  margin-left: 3.9vw;
-}
-.asideContent h2 span{
-  font-size: 1.56vw;
-  font-family: 'Lato-Light',serif;
-}
-.asideContent h2{
-  margin: 0;
-  margin-top: 8.294vh;
-  margin-bottom: 1vh;
-  font-size: 2.083vw;
-  font-family: 'Lato-Black',serif;
-}
-.asideContent p{
-  margin: 0;
-  margin-bottom: 6.45vh;
-  font-size: 1.458vw;
-  font-family: 'Lato-Black',serif;
-}
-.asideContent p span{
-  font-size: 1.458vw;
-  font-family: 'Lato-Light',serif;
+  /* height: 59.15vw; */
+  height: 100vh;
 }
 
-.asideContent h3{
-  font-size: 2.083vw;
-  font-family: 'Lato-Black',serif;
-}
-
-.asideContent h3 span{
-  font-family: 'Lato-Light',serif;
-}
-.signUp{
-  font-size: 1.875vw;
-  font-family: 'Lato-Bold',serif;
-  width: 23.85vw;
-  height: 8.2vh;
-  border: none;
-  background-color: rgb(255,126,21);
+h1{
+  opacity: 0;
+  transition: 2.5s;
+  font-family: 'Lato-Regular',serif;
+  font-size: 3.484vw;
   color: white;
-  border-radius: 0.3vw;
+  text-align: center;
+  margin-top: 11vw;
 }
-/* just to show of scroll */
-.empty{
-  background: Black;
-  height: 20vh;
+h1 span{
+  color: rgb(255,126,21);
+}
+.logoIcon{
+  transition: 1s;
+  position: absolute;
+  width: 12.157vw;
+  height: 12.157vw;
+  top: 8.5vw;
+  left: -15vw;
+}
+.zoned{
+  transition: 1s;
+  position: absolute;
+  width: 26.24vw;
+  height: 8.45vw;
+  top: 18.5vw;
+  right: -33vw;
+}
+/* partnership real */
+.partnership{
+  position: relative;
+  padding-top: 6.0785vw;
+  padding-bottom: 4.077vw;
+}
+/* choseSSL */
+.choseSSL{
+  position: relative;
+  width: 100%;
+  height: 59vw;
+}
+.choseSSL h2{
+  margin: 0;
+  margin-top: 10.378vw;
+  margin-left: 8.154vw;
+  font-family: 'Lato-Black',serif;
+  color: rgb(255,126,21);
+  font-size: 5.337vw;
+}
+.partnershipContainer{
+  position: relative;
+  padding-top: 0.1px;
+  margin-left: 8.154vw;
+  margin-top: 4.447vw;
+  background-color: rgba(255,255,255,0.85);
+  width: 82.357vw;
+  height: 33.2vw;
+}
+.partnershipContainer h2{
+  margin-left: 5.9vw;
+  font-family: 'Lato-Bold',serif;
+  font-size: 3.7524vw;
+  color: rgb(62,62,62);
+}
+.partnershipContainer p{
+  color: rgb(62,62,62);
+  margin-left: 5.9vw;
+  margin-right: 5.9vw;
+  margin-top: 3.7vw;
+  font-size: 2.5vw;
+  font-family: 'Lato-Regular',serif;
+  text-align: justify;
+}
+/* methodology */
+.methodologySection{
+  position: relative;
+  width: 100%;
+  height: 55vw;
+  background-color: rgb(20,20,20);
+  border-bottom: 2.223vw solid rgb(12,12,12);
+}
+.metContent{
+  position: absolute;
+  height: 43.21vw;
+  width: 80.42vw;
+  bottom: 0;
+  left: 8.3vw;
+  background-color: black;
+}
+.hTwoDiv{
+  position: absolute;
+  /* left: 0.37vw; */
+  left: 0;
+  width: 58.41vw;
+  height: 11.19vw;
+  background: black;
+  top: -2.816vw;
+}
+.hTwoDiv h2{
+  text-align: center;
+  margin: 0;
+  margin-top:2vw;
+  font-family: 'Lato-Black';
+  color: white;
+  font-size: 4.75vw;
+}
+
+.methoCounts{
+  position: absolute;
+  background: black;
+  height: 34.84vw;
+  width: 81vw;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.methoList{
+  text-align: center;
+}
+.methoList h3{
+  margin: 0;
+  margin-bottom: -0.5vw;
+  font-family: 'Lato-Black';
+  color: rgb(255,126,21);
+  font-size: 8.154vw;
+}
+
+.methoList h4{
+  margin: 0;
+  margin-bottom: 2vw;
+  font-family: 'Lato-Black',serif;
+  font-size: 2.965vw;
+  color: rgb(255,126,21);
+}
+.methoList hr{
+  border-radius: 5px;
+  height: 3px;
+  background-color: white;
+}
+.methoList p{
+  line-height: 1;
+  margin: 0;
+  margin-top: 2vw;
+  font-family: 'Lato-Regular',serif;
+  font-size: 1.779vw;
+  color: white;
+}
+/* review section */
+.reviews{
+  padding: 0.1px;
+  position: relative;
+  background-color: rgb(20,20,20);
+}
+
+.reviews h2{
+  font-family: 'Lato-Black',serif;
+  color: rgb(255,126,21);
+  font-size: 5.337vw;
+  margin-left: 8.154vw;
+  margin-top: 9vw;
+  margin-bottom: 2.5vw;
+}
+.reviewBox{
+  padding-top:  2vw;
+  width:83.47vw ;
+  min-height: 46.478vw;
+  background-color: rgb(231,231,231);
+  margin-left: 8.154vw;
+}
+.iconText{
+  display: flex;
+  justify-content: space-around;
+}
+.iconText img{
+  width: 22.238vw;
+  height: 7.412vw;
+}
+.iconText p{
+  color: rgb(47,47,47);
+  font-size: 1.65vw;
+  width: 61%;
+}
+.iconText p span{
+  color: rgb(255,126,21);
+}
+
+.athletesIcons{
+  position: relative;
+  min-height: 41.88vw;
+  width: 83.47vw;
+  margin-left: 8.154vw;
+  background-color: rgb(231,231,231);
+}
+/* .athletesIcons h4{
+  font-family: 'Lato-Bold',serif;
+  font-size: 1vw;
+} */
+/* .athletesIcons{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+} */
+
+.athletesIcons img{
+  width: 100%;
+  height: 100%;
+}
+/* pricing section */
+.pricing{
+  padding: 0.1px;
+  position: relative;
+  background-color: rgb(20,20,20);
+}
+.pricing h2{
+  font-family: 'Lato-Black',serif;
+  margin-left: 8.154vw;
+  color: rgb(255,126,21);
+  font-size: 5.337vw;
+  margin-left: 8.154vw;
+  margin-top: 9vw;
+  margin-bottom: 2vw;
+}
+
+.priceTableContainer{
+  width: 98.88%;
+  background: rgb(205,205,205);
+  min-height: 55vw;
+  float: right;
+}
+
+.tableContainer{
+  position: relative;
+  width: 81.54vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8.154vw;
+  margin-top: 3.484vw;
+  margin-bottom: 6.3vw;
+}
+.priceDescriptionBox{
+  position: relative;
+  background-color: rgb(255,126,21);
+  width: 26.36%;
+  /* height: 100%; */
+}
+.priceDescriptionBox h3{
+  margin-left: 1.482vw;
+  font-family: 'Lato-Bold';
+  font-size: 1.779vw;
+  color: white;
+  text-align: left;
+}
+.priceDescriptionBox h3 span{
+  font-family: 'Lato-Light';
+}
+
+.priceTableContainer table{
+  position: relative;
+  /* border: 1px solid red; */
+  border-collapse: collapse;
+  width: 71%;
+}
+
+.priceTableContainer table thead{
+  color: rgb(255,126,21);
+  font-size: 1.779vw;
+  font-family: 'Lato-Black';
+  border-top: 5px solid rgb(255,126,21);
+  border-bottom: 5px solid rgb(255,126,21);
+}
+.priceTableContainer table thead th{
+  width: 25%;
+  text-align: center;
+}
+.priceTableContainer table tbody{
+  border-bottom: 5px solid rgb(255,126,21);
+}
+.priceTableContainer table tbody td{
+  white-space: nowrap;
+  padding-left: 1vw;
+  padding-top: 0.9vw;
+  padding-bottom: 0.9vw;
+  font-family: 'Lato-Light';
+  font-size: 1.7vw;
+  width: 25%;
+  text-align: center;
+  border-bottom: 1px solid rgb(255,126,21);
+}
+.note{
+  position: absolute;
+  font-size: 1vw;
+  color: gray;
+  right: 0;
+  bottom: -3vw;
 }

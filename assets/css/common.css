@@ -23,6 +23,8 @@ body{
 }
 
 .navSpacer{
+  background-color: white;
+  position: relative;
   height: 88px;
   border-bottom: 2px solid white;
 }
@@ -52,8 +54,4 @@ nav{
   color: white;
   font-size: 1.25vw;
   margin-right: 1vw;
-}
-.links a:nth-child(2){
-  text-decoration: underline;
-  text-decoration-color: rgb(255,126,21);
 }
