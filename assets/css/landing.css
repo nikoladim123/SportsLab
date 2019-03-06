@@ -1,3 +1,6 @@
+body{
+  overflow-y: hidden;
+}
 .links a:nth-child(2){
   text-decoration: underline;
   text-decoration-color: rgb(255,126,21);
@@ -76,6 +79,7 @@ header aside{
   font-family: 'Lato-Light',serif;
 }
 .signUp{
+  transition: 0.4s;
   font-size: 1.875vw;
   font-family: 'Lato-Bold',serif;
   width: 23.85vw;
@@ -84,4 +88,8 @@ header aside{
   background-color: rgb(255,126,21);
   color: white;
   border-radius: 0.3vw;
+}
+.signUp:hover{
+  cursor: pointer;
+  filter: brightness(115%);
 }
