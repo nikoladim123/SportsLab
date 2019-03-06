@@ -89,6 +89,12 @@ h1 span{
   font-family: 'Lato-Regular',serif;
   text-align: justify;
 }
+.partnershipContainer h6{
+  margin-left: 5.9vw;
+  color: rgb(62,62,62);
+  font-family: 'Lato-Light',serif;
+  font-size: 1.18vw;
+}
 /* methodology */
 .methodologySection{
   position: relative;
